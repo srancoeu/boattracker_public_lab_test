@@ -5,7 +5,6 @@ public class Employee {
     private int empId;
     private String department;
     private String name;
-    private ArrayList<Boat> boats = new ArrayList<Boat>();
 
     public Employee(int employeeId, String department) {
         this.empId = employeeId;
@@ -24,8 +23,7 @@ public class Employee {
         return this.department;
     }
 
-    public void addBOat(Boat boat){
+    public void addBoat(Boat boat){
         this.boats.add(boat);
-        boat.addUser(this);
     }
 }
