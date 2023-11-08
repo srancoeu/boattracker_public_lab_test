@@ -17,7 +17,7 @@ public class Boat {
     }
  
     public double getBoatPrice() {
-     
+        return boatPrice;
     }
      
     public void addUser(Employee employee){
